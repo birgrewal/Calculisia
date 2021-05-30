@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 22vw;
+    height: 60vh;
+    position: absolute;
+    top: 5vh;
+    right: 50%;
+    transform: translate(50%, 5vh);
+    background-color: rgb(5, 26, 66);
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    border-radius: 16px;
+}
+
+.screen{
+    width: 100%;
+    height: 25%;
+}
+
+.screen input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 24pt;
+}
+
+.l1, .l2, .l3, .l4, .l5{
+    height: 15%;
+}
+
+.btn{
+    width: 24%;
+    height: 100%;
+    background: none;
+    color: white;
+    font-size: 20pt;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.btn:hover{
+    background-image: linear-gradient(rgb(7, 209, 98), rgb(8, 219, 103), rgb(30, 241, 125));
+}
+
+.btn[value="AC"]{
+    color: rgb(255, 94, 0);
+}
+              
+.btn[value="AC"]:hover{
+    color: rgb(5, 26, 66);
+}
+
+.btn[value="0"]{
+    width: 49.3%;
+}

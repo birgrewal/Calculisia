@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1360px){
+    .container{
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 1010px){
+    .container{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    .container{
+        width: 60vw;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+    .container{
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .container{
+        width: 85vw;
+    }
+}
+
+@media only screen and (max-height: 600px){
+    .container{
+        height: 75vh;
+    }
+}
